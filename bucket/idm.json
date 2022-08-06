@@ -7,21 +7,15 @@
     "hash": "025EAC1FAD5CDB0442BFF25B2BCC80E28F28AC97910DD88F5B750FC06DC4B29E",
     "installer": {
         "script": [
-            "Start-Process -Wait $dir\\idman-install.exe /i"
+            "Start-Process -Wait $dir\\idman-install.exe /skipdlgs"
         ],
         "keep": true
     },
-    "shortcuts": [
-        [
-            "Internet Download Manager\\IDMan.exe",
-            "Internet Download Manager"
-        ]
-    ],
     "checkver": {
         "url": "http://www.internetdownloadmanager.com/download.html",
         "regex": "<li class=\"style12\">Run idman(\\S+).exe </li>"
     },
     "autoupdate": {
-        "url": "https://tonec.com//download/idman.exe"
+        "url": "https://tonec.com//download/idman.exe#/idman-install.exe"
     }
 }
