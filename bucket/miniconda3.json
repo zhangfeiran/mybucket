@@ -19,12 +19,11 @@
     },
     "installer": {
         "args": [
-            "/S",
             "/InstallationType=JustMe",
             "/RegisterPython=1",
             "/AddToPath=0",
             "/NoRegistry=0",
-            "/D=D:/miniconda3"
+            "/D=D:\\miniconda3"
         ]
     }
 }
