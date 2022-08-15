@@ -1,0 +1,11 @@
+{
+    "version": "6.29",
+    "description": "An archiver which provides fast speed and convenient features (last version with no ads)",
+    "homepage": "https://www.bandisoft.com/bandizip/old/6/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://en.bandisoft.com/bandizip/eula/"
+    },
+    "url": "https://www.bandisoft.com/bandizip/dl.php?old",
+    "installer": {}
+}
