@@ -7,5 +7,7 @@
         "url": "https://en.bandisoft.com/bandizip/eula/"
     },
     "url": "https://www.bandisoft.com/bandizip/dl.php?old#/bandizip6-installer.exe",
-    "installer": {}
+    "installer": {
+        "script": "Start-Process -Wait $dir\\bandizip6-installer.exe"
+    }
 }
