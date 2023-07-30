@@ -4,7 +4,6 @@
     "version": "641build2",
     "license": "© ToneC",
     "url": "https://tonec.com//download/idman.exe#/idman-install.exe",
-    "hash": "025EAC1FAD5CDB0442BFF25B2BCC80E28F28AC97910DD88F5B750FC06DC4B29E",
     "installer": {
         "script": [
             "Start-Process -Wait $dir\\idman-install.exe /skipdlgs"
