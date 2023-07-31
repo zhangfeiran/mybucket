@@ -6,22 +6,14 @@
     "url": "https://static.frdic.com/pkg/eudic_win.zip",
     "installer": {
         "script": [
-            "Expand-7ZipArchive \"$dir\\eudic_win.exe\" \"$dir\\\" -Removal",
-            "Expand-7ZipArchive \"$dir\\app.7z\" \"$dir\" -Removal"
+            "Start-Process -Wait $dir\\eudic_win.exe"
         ]
     },
-    "shortcuts": [
-        [
-            "eudic.exe",
-            "Eudic"
-        ]
-    ],
     "checkver": {
         "url": "https://www.eudic.net/v4/en/app/download",
         "regex": "<a href=\"https://www.eudic.net/download/eudic_win.zip\\?v=([\\d-]+)\""
     },
     "autoupdate": {
         "url": "https://static.frdic.com/pkg/eudic_win.zip"
-    },
-    "persist": "dic"
+    }
 }
