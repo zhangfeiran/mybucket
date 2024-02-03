@@ -2,6 +2,6 @@
     "version": "1.0.0",
     "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe",
     "installer": {
-        "scirpt": "Start-Process -Wait $dir\\$fname"
+        // "scirpt": "Start-Process -Wait $dir\\$fname"
     }
 }
