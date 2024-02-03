@@ -7,6 +7,6 @@
         "From 4.6.0, conda has built the support for Cmd, Powershell or other shells.",
         "Use \"conda init powershell\" or \"conda init __your_favorite_shell__\""
     ],
-    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/conda-forge/miniforge/LatestRelease/Mambaforge-Windows-x86_64.exe",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/conda-forge/miniforge/LatestRelease/Miniforge3-Windows-x86_64.exe",
     "installer": {}
 }
