@@ -9,12 +9,5 @@
             "Start-Process -Wait $dir\\idman-install.exe /skipdlgs"
         ],
         "keep": true
-    },
-    "checkver": {
-        "url": "http://www.internetdownloadmanager.com/download.html",
-        "regex": "<li class=\"style12\">Run idman(\\S+).exe </li>"
-    },
-    "autoupdate": {
-        "url": "https://tonec.com//download/idman.exe#/idman-install.exe"
     }
 }
